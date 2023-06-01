@@ -4,10 +4,12 @@
 @import "{{ site.theme }}"; 
 
 section {
-  width:600px;
+  width:500px;
   float:right;
   padding-bottom:50px;
+}
 
- .wrapper {
-  width:960px;
+.wrapper {
+  width:860px;
   margin:0 auto;
+}
