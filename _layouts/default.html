@@ -32,7 +32,14 @@
         {% endif %}
         
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View something else</a></p>
+        <head>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          </head>
+          <body>
+          <i class="fa fa-github" style="font-size:12px"></i><span class="view"><a href="{{ site.github.owner_url }}">View something else</a></span>
+          </body>
+
+        
         {% endif %}
         
         {% if site.github.is_user_page %}
