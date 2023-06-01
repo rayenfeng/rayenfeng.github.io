@@ -4,7 +4,7 @@ I'm an aspiring data scientist and this is my porfolio. You're welcome to look a
 
 ![test image text](images/hachiman.png)
 
-# Project 1: Bella Beat Project <br> 
+# [Project 1: Bella Beat Project](projects/bellabeat/fitbit-notebook.md) <br> 
 
 This is my project description 
 
