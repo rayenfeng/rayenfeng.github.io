@@ -26,34 +26,29 @@
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
         
         {% if site.github.is_user_page %}
         <head>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           </head>
           <body>
-          <i class="fa fa-github fa-fw" style="font-size:36px; vertical-align: middle">
-            </i><span class="view"><a href="{{ site.github.owner_url }}">rayenfeng</a></span><br>
             
-          <i class="fa fa-envelope fa-fw" aria-hidden="true" style="font-size:36px; vertical-align: middle">
-            </i><span class="view"><a href="{{ site.github.owner_url }}">feng.rayen@gmail.com</a></span><br>
-            
-          <i class="fa fa-instagram fa-fw" style="font-size:36px; vertical-align: middle">
-            </i><span class="view"><a href="{{ site.github.owner_url }}">rayenfeng</a></span><br>
-            
-          <i class="fa fa-youtube-play fa-fw" aria-hidden="true" style="font-size:36px; vertical-align: middle">
-            </i><span class="view"><a href="https://www.youtube.com/@averagerayen4152">Average Rayen</a></span><br>
-            
-          <i class="fa fa-user fa-fw" aria-hidden="true" style="font-size:36px; vertical-align: middle">
-            </i><span class="view"><a href="{{ site.github.owner_url }}">about me</a></span><br>
-            
+          <i class="fa fa-linkedin fa-fw" aria-hidden="true" style="font-size:24px; vertical-align: middle"></i> 
+          <i class="fa fa-github fa-fw" style="font-size:24px; vertical-align: middle"></i>
+          <i class="fa fa-instagram fa-fw" style="font-size:24px; vertical-align: middle"></i>
+          <i class="fa fa-youtube-play fa-fw" aria-hidden="true" style="font-size:24px; vertical-align: middle"></i>   
+         
           </body>
       
       {% endif %}
+        
+      {% if site.github.is_user_page %}
+      <p class="view"><a href="{{ site.github.owner_url }}">my first blog</a></p>
+      <p class="view"><a href="{{ site.github.owner_url }}">my first blog</a></p>
+      <p class="view"><a href="{{ site.github.owner_url }}">second blog</a></p>
+      <p class="view"><a href="{{ site.github.owner_url }}">thrid blog</a></p>
+      {% endif %}
+        
       </header>
       <section>
 
