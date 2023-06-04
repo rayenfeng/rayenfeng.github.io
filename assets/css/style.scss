@@ -9,12 +9,6 @@ table {
     white-space: nowrap;
 }
 
-a:link {
-  color: black;
+a {
+  color: inherit;
 }
-
-a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
-}
-
