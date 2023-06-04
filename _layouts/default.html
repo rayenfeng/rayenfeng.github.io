@@ -31,9 +31,9 @@
           </head>
           <body>
             
-          <i class="fa fa-linkedin fa-fw" aria-hidden="true" style="font-size:24px; vertical-align: middle"></i> 
-          <i class="fa fa-github fa-fw" style="font-size:24px; vertical-align: middle"></i>
-          <i class="fa fa-instagram fa-fw" style="font-size:24px; vertical-align: middle"></i>
+          <i href = "https://www.linkedin.com/in/rayen-feng/" class="fa fa-linkedin fa-fw" aria-hidden="true" style="font-size:24px; vertical-align: middle"></i> 
+          <i href = "{{ site.github.owner_url }}" class="fa fa-github fa-fw" style="font-size:24px; vertical-align: middle"></i>
+          <i href = "https://www.instagram.com/rayenfeng/" class="fa fa-instagram fa-fw" style="font-size:24px; vertical-align: middle"></i>
           <i class="fa fa-youtube-play fa-fw" aria-hidden="true" style="font-size:24px; vertical-align: middle"></i> 
           </body>
         <br>
@@ -43,15 +43,16 @@
         
       {% if site.github.is_user_page %}
       <head> 
-        <br>
-        <h2><a href="{{ site.github.owner_url }}">Blog</a></h2>
         <hr>
+        <br>
+        <h2><a href="{{ site.github.owner_url }}">Check out my Blog!</a></h2>
+        
       </head>  
         
      <dl>
-      <dt><a href="{{ site.github.owner_url }}">my first blog</a></dt>
-      <dt><a href="{{ site.github.owner_url }}">second blog</a></dt>
-      <dt><a href="{{ site.github.owner_url }}">thrid blog</a></dt>
+      <dt><a href="{{ site.github.owner_url }}">Becoming top a top 3% chess player</a></dt>
+      <dt><a href="{{ site.github.owner_url }}">Learning Kanji in 3 months</a></dt>
+      <dt><a href="{{ site.github.owner_url }}">My iceland Itenerary</a></dt>
     </dl>
       {% endif %}
  
