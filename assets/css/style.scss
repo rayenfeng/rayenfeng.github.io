@@ -8,3 +8,13 @@ table {
     overflow-x: auto;
     white-space: nowrap;
 }
+
+a:link {
+  color: black;
+}
+
+a:hover, a:focus {
+  color:#069;
+  font-weight: bold;
+}
+
