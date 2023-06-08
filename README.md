@@ -4,11 +4,13 @@ I'm an aspiring data scientist and this is my general website that I am using as
 
 ![test image text](images/hachiman.png)
 
-> "Hard work betrays none, but dreams betray many. working hard alone doesn't assure you that you'll achieve your dreams, Actually there are more cases where you don't. > Even so, working hard and achieving something is some consolation at least.”
-> ― **Hikigaya Hachiman**
+> "Hard work betrays none, but dreams betray many. working hard alone doesn't assure you that you'll achieve your dreams, Actually there are more cases where you don't.  Even so, working hard and achieving something is some consolation at least.”
+― **Hikigaya Hachiman**
+
+* * *
     
     
-# Project 3: [Anime Reccomendation system](projects/housing_price_prediction/housing_price_prediction.md) <br> 
+# [Project 3: Anime Reccomendation system](projects/Anime_reccomendation_system/Anime_reccomendation_system_230607.md) <br> 
 
 I ~am~ used to be a big fan of anime and the sort and after about wasting the years of my youth, I have finally watched all the good shows and reached the top 3% of all anime watcheers (I will prove that maybe later). This means I have a tragic problem, I have no friends to ask reccomendations from. Now I could just scrape forums but where's the fun in that. In this project, I made an anime reccomendation system using python and data science, just so I can find the perfect next show. In this project, I webscraped the top 10,000 anime from myanimelist and used machine learning models to decide what to wach next. 
 
