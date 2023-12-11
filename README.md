@@ -1,13 +1,19 @@
 # Hi I'm Rayen <br>
 
-I'm an aspiring data scientist and this is my general website that I am using as a porfolio. You're welcome to look around. Chances are, if you're reading this, the site is more or less under construction. That being said, most of the projects that are on here should be linked to a real project, so you can go click on those. The blogs are also probably not up yet, so stay tuned. Also, if you're actually reading this, I'm looking for a job, please hire me, it's tough in this enconomy. 
+I'm an aspiring data scientist and this is my general website that I am using as a porfolio. You're welcome to look around. Chances are, if you're reading this, the site is more or less under construction. That being said, most of the projects that are on here should be linked to a real project, so you can go click on those. The blogs are also probably not up yet, so stay tuned. Also, if you're actually reading this, I'm looking for a job, please hire me, it's tough in this enconomy.
 
 * * *
-    
+
+# [Project 4: Zealty Webscraping](https://github.com/rayenfeng/ZealtyScrape) <br> 
+![test image text](images/webscraping_zealty_thumb.png)
+
+I've been trying to buy a house recently, and I didn't know what house to choose. In this proejct, I made a python webscraper that collects data from the BC housing website called Zealty.ca. This website has the listings of all the properties being sold in BC and includes all their information such as price, house area, among many others. This proejct is a webscraping project using the Selenium package along with Beautiful soup 4 to collect all the needed data to make better decisions. 
+
+
  
 # [Project 3: Anime Reccomendation system](projects/Anime_reccomendation_system/Anime_reccomendation_system_230607.md) <br> 
 
-![test image text](images/hachiman.png)
+![test image text](images/anime_reccomendation_thumb.png)
 
 > "Hard work betrays none, but dreams betray many. working hard alone doesn't assure you that you'll achieve your dreams, Actually there are more cases where you don't.  Even so, working hard and achieving something is some consolation at least.”
 ― **Hikigaya Hachiman**
@@ -17,14 +23,14 @@ I ~am~ used to be a big fan of anime and the sort and after about wasting the ye
 
 
 # [Project 2: Housing Price Prediction](projects/housing_price_prediction/housing_price_prediction.md) <br> 
-![test image text](images/pexels-the-lazy-artist-gallery-1642125.jpg)
+![test image text](images/houses_arial_thumb.jpg)
 
 The goal of this data science project is to develop a robust and accurate model for predicting housing prices by leveraging the power of Exploratory Data Analysis (EDA) and advanced Machine Learning (ML) techniques. In this project, I focused on incorperating more robust EDA with statitics all in order to make a more comprehensive feature selection for machine learning. I also touch on the basics of machine learning using Python's scikit learn package. 
 
 
 # [Project 1: Bella Beat Project](projects/bellabeat/fitbit-notebook.md) <br> 
 
-![test image text](images/pexels-brett-sayles-1080745.jpg)
+![test image text](images/smart_watch_thumb.png)
 
 In this analysis, one of Bellabeat’s products will be chosen to undergo analysis using their smart device data to gain insight on how consumers are using smart devices. These insights will help guilde the marketing strategy for the company. High level reccomendations will be made to infrom Bellabeat’s marketing stategy. For this, exisiting trends in user activity using Fitbit data will be used.
 
